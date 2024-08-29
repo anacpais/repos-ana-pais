@@ -10,8 +10,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             self.handle_appears_most_count()
         elif self.path == '/fastest_ships':
             self.handle_fastest_ships_count()
-        elif self.path == '/powerful_weapon':
-            self.handle_fastest_ships_count()
         else:
             self.send_response(404)
             self.end_headers()
@@ -26,8 +24,8 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(response.encode('utf-8'))
 
     def handle_appears_most(self):
-        people = get_appears_most()
-        response = json.dumps(people)
+        people_sorted = get_appears_most()
+        response = json.dumps(people_sorted)
         self.send_response(200)
         self.send_header('Content-Type', 'application/json')
         self.send_header('Content-Length', str(len(response)))
@@ -84,6 +82,23 @@ def get_appears_most():
     people_sorted = sorted(people, key=lambda x: x['max_films'], reverse=True)[:3]
     
     return people_sorted
+
+def get_fastest_ships():
+    conn = sqlite3.connect('star_wars_database.db')
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+        SELECT name, max_atmosphering_speed
+        FROM starships
+        ORDER BY max_atmosphering_speed DESC
+        LIMIT 3
+    ''')
+    
+    rows = cursor.fetchall()
+    conn.close()
+    
+    ships = [{'name': row[0], 'max_atmosphering_speed': row[1]} for row in rows]
+    return ships
 
 
 def run(server_class=HTTPServer, handler_class=RequestHandler, port=8000):
