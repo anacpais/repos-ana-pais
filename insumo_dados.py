@@ -1,16 +1,25 @@
-import requests
+import urllib.request
+import urllib.error
 import sqlite3
 import json
 
-url = 'https://swapi.dev/api/'
+# Função para buscar dados usando urllib
+def fetch_data(url):
+    try:
+        with urllib.request.urlopen(url) as response:
+            if response.status == 200:
+                return json.load(response).get('results', [])
+            else:
+                print(f"Problema ao ler os dados da URL: {url}")
+                return []
+    except urllib.error.URLError as e:
+        print(f"Erro ao acessar a URL: {e}")
+        return []
+    except urllib.error.HTTPError as e:
+        print(f"Erro HTTP: {e}")
+        return []
 
-response = requests.get(url)
-
-if response.status_code == 200:
-    data = response.json()
-else:
-    print("Problema ao ler os dados")
-
+# Função para criar uma tabela no banco de dados
 def create_table_from_data(table_name, data):
     conn = sqlite3.connect('star_wars_database.db')
     cursor = conn.cursor()
@@ -32,17 +41,19 @@ def create_table_from_data(table_name, data):
     conn.commit()
     conn.close()
 
+# Função para sanitizar dados
 def sanitize_data(data):
     sanitized_data = {}
     for key, value in data.items():
         if isinstance(value, (dict, list)):
-            sanitized_data[key] = str(value)
+            sanitized_data[key] = str(value)  # Converte objetos e listas para string
         elif value is None:
-            sanitized_data[key] = 'NULL'
+            sanitized_data[key] = 'NULL'  # Substitui None por NULL
         else:
             sanitized_data[key] = value
     return sanitized_data
 
+# Função para inserir dados na tabela
 def insert_data_into_table(table_name, data):
     conn = sqlite3.connect('star_wars_database.db')
     cursor = conn.cursor()
@@ -66,10 +77,20 @@ def insert_data_into_table(table_name, data):
     conn.commit()
     conn.close()
 
-def fetch_data(url):
-    response = requests.get(url)
-    return response.json().get('results', [])
+# URL base da API
+url_base = 'https://swapi.dev/api/'
 
+# Dicionário com URLs para diferentes tipos de dados
+data = {
+    'people': url_base + 'people/',
+    'planets': url_base + 'planets/',
+    'films': url_base + 'films/',
+    'species': url_base + 'species/',
+    'vehicles': url_base + 'vehicles/',
+    'starships': url_base + 'starships/'
+}
+
+# Buscar dados e inserir nas tabelas
 results = {}
 for key, url in data.items():
     results[key] = fetch_data(url)
