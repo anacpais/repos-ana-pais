@@ -43,15 +43,6 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(response.encode('utf-8'))
 
-    def handle_powerful_weapon(self):
-        weapon = get_powerful_weapon()
-        response = json.dumps(weapon)
-        self.send_response(200)
-        self.send_header('Content-Type', 'application/json')
-        self.send_header('Content-Length', str(len(response)))
-        self.end_headers()
-        self.wfile.write(response.encode('utf-8'))
-
 def get_hottest_planets():
     conn = sqlite3.connect('star_wars_database.db')
     cursor = conn.cursor()
@@ -89,28 +80,11 @@ def get_appears_most():
         films_list = json.loads(films) if films else []
         count_films = len(films_list)
         people.append({'name': name, 'max_films': count_films})
-        
+
     people_sorted = sorted(people, key=lambda x: x['max_films'], reverse=True)[:3]
     
     return people_sorted
 
-
-# def get_powerful_weapon():
-#     conn = sqlite3.connect('star_wars_database.db')
-#     cursor = conn.cursor()
-    
-#     cursor.execute('''
-#         SELECT name, max_atmosphering_speed
-#         FROM starships
-#         ORDER BY max_atmosphering_speed DESC
-#         LIMIT 3
-#     ''')
-    
-#     rows = cursor.fetchall()
-#     conn.close()
-    
-#     ships = [{'name': row[0], 'max_atmosphering_speed': row[1]} for row in rows]
-#     return ships
 
 def run(server_class=HTTPServer, handler_class=RequestHandler, port=8000):
     server_address = ('', port)
