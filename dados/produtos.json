@@ -1,0 +1,242 @@
+[
+  {
+    "id_produto": 1,
+    "nome": "Fone Essencial",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Fone Essencial da marca Aurora",
+    "preco_atual": 863.1
+  },
+  {
+    "id_produto": 2,
+    "nome": "Teclado Essencial",
+    "categoria": " eletrônicos ",
+    "marca": "Aurora",
+    "descricao": "Teclado Essencial da marca Aurora",
+    "preco_atual": 170.92
+  },
+  {
+    "id_produto": 3,
+    "nome": "Mouse Essencial",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Mouse Essencial da marca Aurora",
+    "preco_atual": 57.78
+  },
+  {
+    "id_produto": 4,
+    "nome": "Monitor Essencial",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Monitor Essencial da marca Aurora",
+    "preco_atual": 385.48
+  },
+  {
+    "id_produto": 5,
+    "nome": "Webcam Essencial",
+    "categoria": "ELETRÔNICOS",
+    "marca": "Aurora",
+    "descricao": "Webcam Essencial da marca Aurora",
+    "preco_atual": 345.98
+  },
+  {
+    "id_produto": 6,
+    "nome": "Fone Plus",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Fone Plus da marca Aurora",
+    "preco_atual": 317.56
+  },
+  {
+    "id_produto": 7,
+    "nome": "Teclado Plus",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Teclado Plus da marca Aurora",
+    "preco_atual": 207.89
+  },
+  {
+    "id_produto": 8,
+    "nome": "Mouse Plus",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Mouse Plus da marca Aurora",
+    "preco_atual": 159.34
+  },
+  {
+    "id_produto": 9,
+    "nome": "Monitor Plus",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Monitor Plus da marca Aurora",
+    "preco_atual": 739.82
+  },
+  {
+    "id_produto": 10,
+    "nome": "Webcam Plus",
+    "categoria": "Eletrônicos",
+    "marca": "Aurora",
+    "descricao": "Webcam Plus da marca Aurora",
+    "preco_atual": 138.95
+  },
+  {
+    "id_produto": 11,
+    "nome": "Luminária Essencial",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Luminária Essencial da marca Lar Vivo",
+    "preco_atual": 798.97
+  },
+  {
+    "id_produto": 12,
+    "nome": "Cadeira Essencial",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Cadeira Essencial da marca Lar Vivo",
+    "preco_atual": 578.02
+  },
+  {
+    "id_produto": 13,
+    "nome": "Mesa Essencial",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Mesa Essencial da marca Lar Vivo",
+    "preco_atual": 66.65
+  },
+  {
+    "id_produto": 14,
+    "nome": "Organizador Essencial",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Organizador Essencial da marca Lar Vivo",
+    "preco_atual": 64.05
+  },
+  {
+    "id_produto": 15,
+    "nome": "Almofada Essencial",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Almofada Essencial da marca Lar Vivo",
+    "preco_atual": 147.8
+  },
+  {
+    "id_produto": 16,
+    "nome": "Luminária Plus",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Luminária Plus da marca Lar Vivo",
+    "preco_atual": 311.57
+  },
+  {
+    "id_produto": 17,
+    "nome": "Cadeira Plus",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Cadeira Plus da marca Lar Vivo",
+    "preco_atual": 329.95
+  },
+  {
+    "id_produto": 18,
+    "nome": "Mesa Plus",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Mesa Plus da marca Lar Vivo",
+    "preco_atual": 687.37
+  },
+  {
+    "id_produto": 19,
+    "nome": "Organizador Plus",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Organizador Plus da marca Lar Vivo",
+    "preco_atual": 814.07
+  },
+  {
+    "id_produto": 20,
+    "nome": "Almofada Plus",
+    "categoria": "Casa",
+    "marca": "Lar Vivo",
+    "descricao": "Almofada Plus da marca Lar Vivo",
+    "preco_atual": 59.78
+  },
+  {
+    "id_produto": 21,
+    "nome": "Tapete Essencial",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Tapete Essencial da marca Movimento",
+    "preco_atual": 760.63
+  },
+  {
+    "id_produto": 22,
+    "nome": "Garrafa Essencial",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Garrafa Essencial da marca Movimento",
+    "preco_atual": 285.62
+  },
+  {
+    "id_produto": 23,
+    "nome": "Halter Essencial",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Halter Essencial da marca Movimento",
+    "preco_atual": 876.81
+  },
+  {
+    "id_produto": 24,
+    "nome": "Bola Essencial",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Bola Essencial da marca Movimento",
+    "preco_atual": 739.26
+  },
+  {
+    "id_produto": 25,
+    "nome": "Mochila Essencial",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Mochila Essencial da marca Movimento",
+    "preco_atual": 574.87
+  },
+  {
+    "id_produto": 26,
+    "nome": "Tapete Plus",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Tapete Plus da marca Movimento",
+    "preco_atual": 313.93
+  },
+  {
+    "id_produto": 27,
+    "nome": "Garrafa Plus",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Garrafa Plus da marca Movimento",
+    "preco_atual": 613.78
+  },
+  {
+    "id_produto": 28,
+    "nome": "Halter Plus",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Halter Plus da marca Movimento",
+    "preco_atual": 797.36
+  },
+  {
+    "id_produto": 29,
+    "nome": "Bola Plus",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Bola Plus da marca Movimento",
+    "preco_atual": 389.63
+  },
+  {
+    "id_produto": 30,
+    "nome": "Mochila Plus",
+    "categoria": "Esporte",
+    "marca": "Movimento",
+    "descricao": "Mochila Plus da marca Movimento",
+    "preco_atual": 33.51
+  }
+]

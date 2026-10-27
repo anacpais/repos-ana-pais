@@ -1,0 +1,20 @@
+{
+  "produtos": 30,
+  "registros_bronze_vendas": 1001,
+  "itens_apos_deduplicacao": 1000,
+  "duplicatas_removidas": 1,
+  "itens_produto_inexistente": 1,
+  "itens_cancelados": 100,
+  "itens_fato_vendas": 899,
+  "pedidos_fato_vendas": 450,
+  "quantidade_total": 2666,
+  "receita_liquida": "1112252.39",
+  "receita_por_mes": {
+    "2026-04": "193774.47",
+    "2026-05": "157288.00",
+    "2026-06": "174072.81",
+    "2026-07": "182912.52",
+    "2026-08": "234717.85",
+    "2026-09": "169486.74"
+  }
+}

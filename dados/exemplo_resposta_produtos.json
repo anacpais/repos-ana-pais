@@ -1,0 +1,18 @@
+{
+  "versao_dataset": "workshop-v1",
+  "dados": [
+    {
+      "id_produto": 1,
+      "nome": "Fone Essencial",
+      "categoria": "Eletrônicos",
+      "marca": "Aurora",
+      "descricao": "Fone Essencial da marca Aurora",
+      "preco_atual": 863.1
+    }
+  ],
+  "pagina": 1,
+  "tamanho": 1,
+  "total_registros": 30,
+  "total_paginas": 30,
+  "proxima_pagina": "/produtos?pagina=2&tamanho=1"
+}

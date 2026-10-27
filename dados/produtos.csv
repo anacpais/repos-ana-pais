@@ -1,0 +1,31 @@
+﻿id_produto,nome,categoria,marca,descricao,preco_atual
+1,Fone Essencial,Eletrônicos,Aurora,Fone Essencial da marca Aurora,863.1
+2,Teclado Essencial, eletrônicos ,Aurora,Teclado Essencial da marca Aurora,170.92
+3,Mouse Essencial,Eletrônicos,Aurora,Mouse Essencial da marca Aurora,57.78
+4,Monitor Essencial,Eletrônicos,Aurora,Monitor Essencial da marca Aurora,385.48
+5,Webcam Essencial,ELETRÔNICOS,Aurora,Webcam Essencial da marca Aurora,345.98
+6,Fone Plus,Eletrônicos,Aurora,Fone Plus da marca Aurora,317.56
+7,Teclado Plus,Eletrônicos,Aurora,Teclado Plus da marca Aurora,207.89
+8,Mouse Plus,Eletrônicos,Aurora,Mouse Plus da marca Aurora,159.34
+9,Monitor Plus,Eletrônicos,Aurora,Monitor Plus da marca Aurora,739.82
+10,Webcam Plus,Eletrônicos,Aurora,Webcam Plus da marca Aurora,138.95
+11,Luminária Essencial,Casa,Lar Vivo,Luminária Essencial da marca Lar Vivo,798.97
+12,Cadeira Essencial,Casa,Lar Vivo,Cadeira Essencial da marca Lar Vivo,578.02
+13,Mesa Essencial,Casa,Lar Vivo,Mesa Essencial da marca Lar Vivo,66.65
+14,Organizador Essencial,Casa,Lar Vivo,Organizador Essencial da marca Lar Vivo,64.05
+15,Almofada Essencial,Casa,Lar Vivo,Almofada Essencial da marca Lar Vivo,147.8
+16,Luminária Plus,Casa,Lar Vivo,Luminária Plus da marca Lar Vivo,311.57
+17,Cadeira Plus,Casa,Lar Vivo,Cadeira Plus da marca Lar Vivo,329.95
+18,Mesa Plus,Casa,Lar Vivo,Mesa Plus da marca Lar Vivo,687.37
+19,Organizador Plus,Casa,Lar Vivo,Organizador Plus da marca Lar Vivo,814.07
+20,Almofada Plus,Casa,Lar Vivo,Almofada Plus da marca Lar Vivo,59.78
+21,Tapete Essencial,Esporte,Movimento,Tapete Essencial da marca Movimento,760.63
+22,Garrafa Essencial,Esporte,Movimento,Garrafa Essencial da marca Movimento,285.62
+23,Halter Essencial,Esporte,Movimento,Halter Essencial da marca Movimento,876.81
+24,Bola Essencial,Esporte,Movimento,Bola Essencial da marca Movimento,739.26
+25,Mochila Essencial,Esporte,Movimento,Mochila Essencial da marca Movimento,574.87
+26,Tapete Plus,Esporte,Movimento,Tapete Plus da marca Movimento,313.93
+27,Garrafa Plus,Esporte,Movimento,Garrafa Plus da marca Movimento,613.78
+28,Halter Plus,Esporte,Movimento,Halter Plus da marca Movimento,797.36
+29,Bola Plus,Esporte,Movimento,Bola Plus da marca Movimento,389.63
+30,Mochila Plus,Esporte,Movimento,Mochila Plus da marca Movimento,33.51

@@ -1,0 +1,20 @@
+{
+  "versao_dataset": "workshop-v1",
+  "dados": [
+    {
+      "id_venda": "V00001",
+      "numero_item": 1,
+      "data_venda": "2026-05-11",
+      "id_produto": 999,
+      "quantidade": 3,
+      "preco_unitario": 573.92,
+      "desconto": 86.09,
+      "status": "concluida"
+    }
+  ],
+  "pagina": 1,
+  "tamanho": 1,
+  "total_registros": 1001,
+  "total_paginas": 1001,
+  "proxima_pagina": "/vendas?pagina=2&tamanho=1"
+}
